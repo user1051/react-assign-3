@@ -81,6 +81,9 @@ class App extends Component {
 				) : (
 					// {this.state.show && (
 					<>
+					<h1 className="text-4xl uppercase font-medium">
+							Employee Feedback Data
+						</h1>
 						<div className="m-10 max-w-max flex flex-wrap border-2 border-slate-700 bg-indigo-300">
 							{this.state.emp.map((i) => (
 								<div className="m-6 border-2 border-slate-700 rounded-3xl bg-pink-300">
